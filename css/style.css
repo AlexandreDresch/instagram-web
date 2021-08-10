@@ -1,0 +1,44 @@
+/* RESET CSS */
+html, body, header, main, footer, article, div, span, p, a, figure, img, small {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    outline: none;
+}
+
+/* BODY */
+body {}
+
+/* HEADER */
+header {}
+header .container {}
+header .linha {}
+header .linha__coluna {}
+header a{}
+header a figure {}
+header a figure img {}
+header ul {}
+header ul li {}
+header ul li a {}
+header ul li a img {}
+
+/* FOOTER */
+
+
+/* PÁGINA INICIAL */
+main {}
+main article {}
+main article .container {}
+main article .secaoSobreUsuario .linha {}
+main article .secaoSobreUsuario .linha__coluna {}
+main article .secaoSobreUsuario figure {}
+main article .secaoSobreUsuario figure img {}
+main article .secaoSobreUsuario .sobreUsuario {}
+main article .secaoSobreUsuario .sobreUsuario .sobreUsuario__nome {}
+
+/* EXTRAS */
+
+
+/* @media */
