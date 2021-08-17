@@ -1,26 +1,46 @@
-/* RESET CSS */
-html, body, header, main, footer, article, div, span, p, a, figure, img, small {
+/* GERAL */
+html, body, header, main, footer, article, div, span, p, a, figure, img, small, ul, li {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     font-family: sans-serif;
     outline: none;
+    list-style: none;
+}
+.container {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+.hidden {
+    display: none;
+}
+.border {
+    border-radius: 50%;
 }
 
 /* BODY */
 body {}
 
 /* HEADER */
-header {}
+header {
+    padding: 12px;
+}
 header .container {}
-header .linha {}
+header .linha {
+    display: flex;
+    justify-content: space-between;
+}
 header .linha__coluna {}
 header a{}
 header a figure {}
 header a figure img {}
 header ul {}
-header ul li {}
+header ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
 header ul li a {}
 header ul li a img {}
 
