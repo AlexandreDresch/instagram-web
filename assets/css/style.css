@@ -12,6 +12,7 @@ html, body, header, main, footer, article, div, span, p, a, figure, img, small, 
     width: 100%;
     max-width: 850px;
     margin: 0 auto;
+    /* padding: 0 30px; */
 }
 .hidden {
     display: none;
@@ -31,18 +32,22 @@ header .container {}
 header .linha {
     display: flex;
     justify-content: space-between;
+    
 }
 header .linha__coluna {}
 header a{}
 header a figure {}
-header a figure img {}
+header a figure img {
+    width: 115px;
+}
 header ul {}
 header ul li {
     display: inline-block;
-    margin-left: 10px;
 }
 header ul li a {}
-header ul li a img {}
+header ul li a img {
+
+}
 
 /* FOOTER */
 
@@ -54,11 +59,23 @@ main article .container {}
 main article .secaoSobreUsuario .linha {}
 main article .secaoSobreUsuario .linha__coluna {}
 main article .secaoSobreUsuario figure {}
-main article .secaoSobreUsuario figure img {}
+main article .secaoSobreUsuario figure img {
+    width: 90px;
+}
 main article .secaoSobreUsuario .sobreUsuario {}
-main article .secaoSobreUsuario .sobreUsuario__nome {}
-main article .secaoSobreUsuario .sobreUsuario__nome h2 {}
-main article .secaoSobreUsuario .sobreUsuario__nome button {}
+main article .secaoSobreUsuario .sobreUsuario__nome {
+    display: flex;
+    align-items: center;
+}
+main article .secaoSobreUsuario .sobreUsuario__nome h2 {
+    margin: 0;
+    font-size: 1.1rem;
+    margin-right: 10px;
+}
+main article .secaoSobreUsuario .sobreUsuario__nome button {
+    font-size: 0.7rem;
+    padding: 7px 4px;
+}
 main article .secaoSobreUsuario .sobreUsuario__seguidores {}
 main article .secaoSobreUsuario .sobreUsuario__seguidores ul {}
 main article .secaoSobreUsuario .sobreUsuario__seguidores ul li {}
