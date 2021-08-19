@@ -55,7 +55,9 @@ header ul li a img {
 /* PÁGINA INICIAL */
 main {}
 main article {}
-main article .container {}
+main article .container {
+    padding: 10px;
+}
 main article .secaoSobreUsuario .linha {}
 main article .secaoSobreUsuario .linha__coluna {}
 main article .secaoSobreUsuario figure {}
@@ -68,6 +70,7 @@ main article .secaoSobreUsuario .sobreUsuario__nome {
     align-items: center;
 }
 main article .secaoSobreUsuario .sobreUsuario__nome h2 {
+    color: #000;
     margin: 0;
     font-size: 1.1rem;
     margin-right: 10px;
@@ -75,21 +78,50 @@ main article .secaoSobreUsuario .sobreUsuario__nome h2 {
 main article .secaoSobreUsuario .sobreUsuario__nome button {
     font-size: 0.7rem;
     padding: 7px 4px;
+    background-color: transparent;
+    border: 1px solid #DBDBDB;
+    border-radius: 2px;
+    font-weight: 600;
+
 }
-main article .secaoSobreUsuario .sobreUsuario__seguidores {}
-main article .secaoSobreUsuario .sobreUsuario__seguidores ul {}
+main article .secaoSobreUsuario .sobreUsuario__seguidores {
+    margin-top: 20px;
+}
+main article .secaoSobreUsuario .sobreUsuario__seguidores ul {
+    display: flex;
+    text-align: center;
+}
 main article .secaoSobreUsuario .sobreUsuario__seguidores ul li {}
-main article .secaoSobreUsuario .sobreUsuario__seguidores ul li a {}
+main article .secaoSobreUsuario .sobreUsuario__seguidores ul li a {
+    color: #000;
+    font-size: 0.9rem;
+}
 main article .secaoSobreUsuario .sobreUsuario__seguidores ul li a strong {}
-main article .secaoSobreUsuario .sobreUsuario__descricao {}
-main article .secaoSobreUsuario .sobreUsuario__descricao h3 {}
-main article .secaoSobreUsuario .sobreUsuario__descricao p {}
+main article .secaoSobreUsuario .sobreUsuario__descricao {
+    margin-top: 25px;
+}
+main article .secaoSobreUsuario .sobreUsuario__descricao h3 {
+    margin: 0px;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+main article .secaoSobreUsuario .sobreUsuario__descricao p {
+    font-size: 0.8rem;
+}
 main article .secaoSobreUsuario .sobreUsuario__descricao p a {}
 
 main article .secaoDestaquesUsuario {}
-main article .secaoDestaquesUsuario ul {}
-main article .secaoDestaquesUsuario ul li {}
+main article .secaoDestaquesUsuario ul {
+    font-size: 0.6rem;
+}
+main article .secaoDestaquesUsuario ul li {
+    text-align: center;
+    margin-right: 10px;
+}
 main article .secaoDestaquesUsuario ul li figure {}
+main article .secaoDestaquesUsuario ul li figure img {
+    width: 60px;
+}
 main article .secaoDestaquesUsuario ul li h3 {}
 
 /* EXTRAS */
