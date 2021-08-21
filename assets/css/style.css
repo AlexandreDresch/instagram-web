@@ -58,7 +58,6 @@ main {
 }
 main article {}
 main article .container {}
-main article .secaoSobreUsuario .linha {}
 main article .secaoSobreUsuario .linha__coluna {}
 main article .secaoSobreUsuario figure {}
 main article .secaoSobreUsuario figure img {
@@ -137,3 +136,38 @@ main article .secaoDestaquesUsuario ul li h3 {
 
 
 /* @media */
+@media screen and (min-width: 620px) {
+    main article .secaoSobreUsuario .linha {
+        display: flex;
+    }
+    main article .secaoSobreUsuario .linha__coluna--esquerda {
+        flex-basis: 45%;
+    }
+    main article .secaoDestaquesUsuario ul {
+        justify-content: space-between;
+    }
+    .container {
+        max-width: 590px;
+    }
+}
+
+@media screen and (min-width: 840px) {
+    .container {
+        max-width: 590px;
+    }
+    main article .secaoSobreUsuario figure img {
+        width: 140px;
+    }
+    main article .secaoSobreUsuario .linha__coluna--direita {
+        flex-basis: 100%;
+    }
+    main article .secaoSobreUsuario .sobreUsuario {
+        max-width: 370px;
+    }
+    main article .secaoSobreUsuario .sobreUsuario__nome h2 {
+        font-size: 1.3rem;       
+    }
+    main article .secaoSobreUsuario .sobreUsuario__nome bottom {
+        padding: 7px 10px;
+    }
+}
