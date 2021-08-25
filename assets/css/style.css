@@ -27,6 +27,7 @@ body {}
 /* HEADER */
 header {
     padding-top: 12px;
+    border-bottom: 2px solid #DBDBDB;
 }
 header .container {}
 header .linha {
@@ -55,11 +56,15 @@ header ul li a img {
 /* PÁGINA INICIAL */
 main {
     overflow-x: hidden;
+    background-color: #FAFAFA;
+    padding: 30px 0;
 }
 main article {}
 main article .container {}
 main article .secaoSobreUsuario .linha__coluna {}
-main article .secaoSobreUsuario figure {}
+main article .secaoSobreUsuario figure {
+    margin-right: 15px;
+}
 main article .secaoSobreUsuario figure img {
     width: 90px;
 }
@@ -176,6 +181,9 @@ main article .secaoDestaquesUsuario ul li h3 {
     header a figure img {
         width: 140px;
     }
+    header ul li a img {
+        width: 22px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -193,5 +201,17 @@ main article .secaoDestaquesUsuario ul li h3 {
     }
     main article .secaoSobreUsuario .sobreUsuario {
         max-width: 440px;
+    }
+    main article .secaoSobreUsuario .sobreUsuario__nome h2 {
+        font-size: 1.4rem;
+    }
+    main article .secaoSobreUsuario .sobreUsuario__seguidores ul li a {
+        font-size: 1rem;
+    }
+    main article .secaoSobreUsuario .sobreUsuario__descricao h3 {
+        font-size: 1rem;
+    }
+    main article .secaoSobreUsuario .sobreUsuario__descricao p {
+        font-size: 0.9rem;
     }
 }
