@@ -116,7 +116,10 @@ main article .secaoSobreUsuario .sobreUsuario__descricao h3 {
 main article .secaoSobreUsuario .sobreUsuario__descricao p {
     font-size: 0.8rem;
 }
-main article .secaoSobreUsuario .sobreUsuario__descricao p a {}
+main article .secaoSobreUsuario .sobreUsuario__descricao p a {
+    color: #00376B;
+    font-weight: 600;
+}
 
 main article .secaoDestaquesUsuario {}
 main article .secaoDestaquesUsuario ul {
@@ -136,6 +139,11 @@ main article .secaoDestaquesUsuario ul li h3 {
     font-size: 0.6rem;
     margin: 0;
 }
+.feed {}
+.feed nav {}
+.feed .feed__menu {}
+.feed .feed__menu li {}
+.feed .feed__menu a {}
 
 /* EXTRAS */
 
