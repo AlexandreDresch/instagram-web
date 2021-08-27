@@ -141,9 +141,36 @@ main article .secaoDestaquesUsuario ul li h3 {
 }
 .feed {}
 .feed nav {}
-.feed .feed__menu {}
+.feed .feed__menu {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
 .feed .feed__menu li {}
-.feed .feed__menu a {}
+.feed .feed__menu li a {
+    font-size: 12px;
+    padding: 0 5px;
+    font-weight: bold;
+    color: #000;
+}
+
+.feed__galeria {}
+.feed__galeria ul {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feed__galeria ul li {
+    width: 100%;
+    max-width: 259px;
+    height: 259px;
+    background-color: hotpink;
+    margin-bottom: 26px;
+}
+.feed__galeria ul li figure {}
+.feed__galeria ul li img {}
+.feed__galeria ul li figcaption {}
 
 /* EXTRAS */
 
