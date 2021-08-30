@@ -63,10 +63,14 @@ main article {}
 main article .container {}
 main article .secaoSobreUsuario .linha__coluna {}
 main article .secaoSobreUsuario figure {
-    margin-right: 15px;
+    width: 100%;
+    border: solid 2px #ff9696;
+    border-radius: 100%;
+    padding: 4px;
 }
 main article .secaoSobreUsuario figure img {
-    width: 90px;
+    display: block;
+    width: 100%;
 }
 main article .secaoSobreUsuario .sobreUsuario {}
 main article .secaoSobreUsuario .sobreUsuario__nome {
@@ -145,8 +149,20 @@ main article .secaoDestaquesUsuario ul li h3 {
     margin-top: 40px;
     display: flex;
     justify-content: center;
+    border-top: solid 1px #ccc;
 }
-.feed .feed__menu li {}
+.feed .feed__menu li {
+    position: relative;
+}
+.feed .feed__menu li.ativo::before {
+    padding-top: 10px;
+    border-top: solid 2px #878787;
+    content: "";
+    display: block;
+    position: absolute;
+    top: -1px;
+    width: 100%;
+}
 .feed .feed__menu li a {
     font-size: 12px;
     padding: 0 5px;
@@ -165,7 +181,6 @@ main article .secaoDestaquesUsuario ul li h3 {
     width: 100%;
     max-width: 259px;
     height: 259px;
-    background-color: hotpink;
     margin-bottom: 10px;
     padding: 10px;
 }
@@ -198,14 +213,17 @@ main article .secaoDestaquesUsuario ul li h3 {
         flex-wrap: wrap;
         justify-content: space-around;
     }
+    .feed .feed__menu li {
+        margin: 0 22px;
+    }
 }
 
 @media screen and (min-width: 840px) {
     .container {
         max-width: 770px;
     }
-    main article .secaoSobreUsuario figure img {
-        width: 140px;
+    main article .secaoSobreUsuario figure {
+        max-width: 140px;
     }
     main article .secaoSobreUsuario .linha__coluna--direita {
         flex-basis: 100%;
