@@ -62,15 +62,10 @@ main {
 main article {}
 main article .container {}
 main article .secaoSobreUsuario .linha__coluna {}
-main article .secaoSobreUsuario figure {
-    width: 100%;
-    border: solid 2px #ff9696;
-    border-radius: 100%;
-    padding: 4px;
-}
+main article .secaoSobreUsuario figure {}
 main article .secaoSobreUsuario figure img {
     display: block;
-    width: 100%;
+    width: 90px;
 }
 main article .secaoSobreUsuario .sobreUsuario {}
 main article .secaoSobreUsuario .sobreUsuario__nome {
@@ -162,6 +157,9 @@ main article .secaoDestaquesUsuario ul li h3 {
     position: absolute;
     top: -1px;
     width: 100%;
+}
+.feed .feed__menu li img {
+
 }
 .feed .feed__menu li a {
     font-size: 12px;
